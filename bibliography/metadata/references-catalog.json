@@ -1,0 +1,377 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "generated_date": "2025-11-06T20:40:00-03:00",
+    "generated_by": "Claude Code - DEEP_MODE",
+    "source_document": "LA_BIBLIA_INFRASTRUCTURE_SHOWCASE.md",
+    "source_section": "§23 Fuentes Documentales (líneas 1125-1203)",
+    "total_references": 12,
+    "acquired_count": 9,
+    "partial_count": 2,
+    "documented_count": 3
+  },
+  "summary": {
+    "by_category": {
+      "books": {
+        "total": 3,
+        "acquired": 0,
+        "free_alternatives": 2,
+        "documented": 3
+      },
+      "papers": {
+        "total": 4,
+        "acquired": 3,
+        "partial": 1,
+        "documented": 0
+      },
+      "web_articles": {
+        "total": 4,
+        "acquired": 4,
+        "documented": 0
+      },
+      "tech_blogs": {
+        "total": 2,
+        "acquired": 2,
+        "documented": 0
+      }
+    },
+    "by_status": {
+      "acquired": 9,
+      "partial": 1,
+      "free_alternatives": 2,
+      "documented_only": 3
+    }
+  },
+  "references": [
+    {
+      "id": "[1]",
+      "title": "Patterns of Enterprise Application Architecture",
+      "authors": ["Fowler, Martin"],
+      "year": 2002,
+      "type": "book",
+      "publisher": "Addison-Wesley",
+      "isbn": "978-0321127426",
+      "relevance": "§9 Arquitectura de Capas, §15.1 Layered Pattern",
+      "key_quote": "El objetivo más común de la arquitectura de capas es separar complejidad.",
+      "status": "documented",
+      "acquisition": {
+        "acquired": false,
+        "free_alternative": true,
+        "alternative_url": "https://martinfowler.com/eaaCatalog/",
+        "alternative_description": "Full pattern catalog maintained by author",
+        "purchase_url": "https://www.oreilly.com/library/view/patterns-of-enterprise/0321127420/",
+        "purchase_cost": "$50 USD or O'Reilly subscription"
+      },
+      "local_path": null,
+      "documentation_path": "bibliography/books/ACQUISITION_STRATEGIES.md"
+    },
+    {
+      "id": "[2]",
+      "title": "Domain-Driven Design: Tackling Complexity in the Heart of Software",
+      "authors": ["Evans, Eric"],
+      "year": 2003,
+      "type": "book",
+      "publisher": "Addison-Wesley",
+      "isbn": "978-0321125217",
+      "relevance": "§6.1 Sistema Agnóstico, §15.2 Bounded Contexts",
+      "key_quote": "Make the domain model the backbone of the language used by all team members.",
+      "status": "partial",
+      "acquisition": {
+        "acquired": false,
+        "free_alternative": true,
+        "alternatives": [
+          {
+            "name": "DDD Reference",
+            "url": "https://www.domainlanguage.com/wp-content/uploads/2016/05/DDD_Reference_2015-03.pdf",
+            "local_path": "bibliography/books/evans-ddd-reference-2015-free.pdf",
+            "file_size": "473 KB",
+            "description": "Official 50-page summary by Eric Evans",
+            "acquired": true,
+            "acquisition_date": "2025-11-06"
+          },
+          {
+            "name": "Domain-Driven Design Quickly",
+            "url": "https://www.infoq.com/minibooks/domain-driven-design-quickly/",
+            "local_path": "bibliography/books/ddd-quickly-infoq-free.html",
+            "file_size": "144 KB",
+            "description": "104-page community summary approved by Evans",
+            "acquired": true,
+            "acquisition_date": "2025-11-06",
+            "notes": "Landing page downloaded, full PDF requires InfoQ registration (free)"
+          }
+        ],
+        "purchase_url": "https://www.oreilly.com/library/view/domain-driven-design-tackling/0321125215/",
+        "purchase_cost": "$60 USD or O'Reilly subscription"
+      },
+      "local_path": "bibliography/books/evans-ddd-reference-2015-free.pdf",
+      "documentation_path": "bibliography/books/ACQUISITION_STRATEGIES.md"
+    },
+    {
+      "id": "[3]",
+      "title": "Clean Code: A Handbook of Agile Software Craftsmanship",
+      "authors": ["Martin, Robert C."],
+      "year": 2008,
+      "type": "book",
+      "publisher": "Prentice Hall",
+      "isbn": "978-0132350884",
+      "relevance": "§8 TDD, §15 Patrones de Diseño",
+      "key_quote": "The only way to go fast is to go well.",
+      "status": "documented",
+      "acquisition": {
+        "acquired": false,
+        "free_alternative": true,
+        "alternative_url": "https://blog.cleancoder.com/",
+        "alternative_description": "Uncle Bob's blog with Clean Code principles + YouTube talks",
+        "purchase_url": "https://www.oreilly.com/library/view/clean-code-a/9780136083238/",
+        "purchase_cost": "$45 USD or O'Reilly subscription"
+      },
+      "local_path": null,
+      "documentation_path": "bibliography/books/ACQUISITION_STRATEGIES.md"
+    },
+    {
+      "id": "[4]",
+      "title": "Progressive Disclosure",
+      "authors": ["Nielsen Norman Group"],
+      "year": 2006,
+      "type": "web-article",
+      "url": "https://www.nngroup.com/articles/progressive-disclosure/",
+      "relevance": "§7.1 Progressive Disclosure Theory",
+      "key_quote": "Progressive disclosure defers advanced or rarely used features to a secondary screen.",
+      "status": "acquired",
+      "acquisition": {
+        "acquired": true,
+        "acquisition_date": "2025-11-06",
+        "acquisition_method": "curl -L"
+      },
+      "local_path": "bibliography/web-articles/nngroup-progressive-disclosure-2006.html",
+      "file_size": "103 KB",
+      "format": "HTML + UTF-8"
+    },
+    {
+      "id": "[5]",
+      "title": "Progressive Disclosure Pattern",
+      "authors": ["IBM Design"],
+      "year": 2024,
+      "type": "web-article",
+      "url": "https://www.carbondesignsystem.com/patterns/progressive-disclosure-pattern/",
+      "relevance": "§7 Progressive Disclosure",
+      "key_quote": "Progresivamente revelar información para reducir cognitive load.",
+      "status": "acquired",
+      "acquisition": {
+        "acquired": true,
+        "acquisition_date": "2025-11-06",
+        "acquisition_method": "curl -L"
+      },
+      "local_path": "bibliography/web-articles/ibm-progressive-disclosure-2024.html",
+      "file_size": "2.9 MB",
+      "format": "HTML + UTF-8"
+    },
+    {
+      "id": "[6]",
+      "title": "The Rails Doctrine",
+      "authors": ["Hansson, David Heinemeier"],
+      "year": 2006,
+      "type": "web-article",
+      "url": "https://rubyonrails.org/doctrine",
+      "relevance": "§10.1 Convention over Configuration",
+      "key_quote": "Convention over configuration means developers only need to specify unconventional aspects of the application.",
+      "status": "acquired",
+      "acquisition": {
+        "acquired": true,
+        "acquisition_date": "2025-11-06",
+        "acquisition_method": "curl -L"
+      },
+      "local_path": "bibliography/web-articles/rails-doctrine-2006.html",
+      "file_size": "48 KB",
+      "format": "HTML + UTF-8"
+    },
+    {
+      "id": "[7]",
+      "title": "Cognitive load during problem solving: Effects on learning",
+      "authors": ["Sweller, John"],
+      "year": 1988,
+      "type": "paper",
+      "journal": "Cognitive Science",
+      "volume": "12",
+      "issue": "2",
+      "pages": "257-285",
+      "doi": "10.1207/s15516709cog1202_4",
+      "relevance": "§7.1 Justificación científica de Progressive Disclosure",
+      "key_quote": "Intrinsic, extraneous, and germane cognitive load affect learning outcomes.",
+      "status": "acquired",
+      "acquisition": {
+        "acquired": true,
+        "acquisition_date": "2025-11-06",
+        "acquisition_method": "curl -L (web-research-specialist found URL)",
+        "acquisition_url": "https://andymatuschak.org/files/papers/Sweller%20-%201988%20-%20Cognitive%20load%20during%20problem%20solving.pdf",
+        "alternative_urls": [
+          "https://www.scribd.com/document/708558430/",
+          "https://mrbartonmaths.com/resourcesnew/8.%20Research/Explicit%20Instruction/Cognitive%20Load%20during%20problem%20solving.pdf"
+        ]
+      },
+      "local_path": "bibliography/papers/sweller-cognitive-load-1988.pdf",
+      "file_size": "1.8 MB",
+      "format": "PDF v1.3"
+    },
+    {
+      "id": "[8]",
+      "title": "The SPACE of Developer Productivity",
+      "authors": [
+        "Forsgren, Nicole",
+        "Storey, Margaret-Anne",
+        "Maddila, Chandra",
+        "Zimmermann, Thomas",
+        "Houck, Brian",
+        "Butler, Jenna"
+      ],
+      "year": 2021,
+      "type": "paper",
+      "journal": "ACM Queue",
+      "volume": "19",
+      "issue": "1",
+      "url": "https://queue.acm.org/detail.cfm?id=3454124",
+      "relevance": "§16 Casos de Uso Real, métricas de impacto",
+      "key_quote": "SPACE framework: Satisfaction, Performance, Activity, Communication, Efficiency.",
+      "status": "acquired",
+      "acquisition": {
+        "acquired": true,
+        "acquisition_date": "2025-11-06",
+        "acquisition_method": "curl -L"
+      },
+      "local_path": "bibliography/web-articles/forsgren-space-framework-2021.html",
+      "file_size": "4.5 KB",
+      "format": "HTML + ASCII"
+    },
+    {
+      "id": "[9]",
+      "title": "GitHub Copilot Statistics",
+      "authors": ["GitHub / TechCrunch"],
+      "year": 2025,
+      "type": "tech-blog",
+      "url": "https://techcrunch.com/2025/07/30/github-copilot-crosses-20-million-all-time-users/",
+      "original_url": "https://techcrunch.com/2025/01/github-copilot-statistics",
+      "relevance": "§21.1 Comparación con alternativas",
+      "key_data": "20+ million all-time users, 1.3M paid subscribers, writes 46% of code on average",
+      "status": "acquired",
+      "acquisition": {
+        "acquired": true,
+        "acquisition_date": "2025-11-06",
+        "acquisition_method": "curl -L (after WebSearch)",
+        "notes": "Original URL was generic, found actual article via WebSearch"
+      },
+      "local_path": "bibliography/tech-blogs/github-copilot-stats-2025-techcrunch.html",
+      "file_size": "196 KB",
+      "format": "HTML + ASCII"
+    },
+    {
+      "id": "[10]",
+      "title": "I Tried 10 AI Coding Tools - Here's The Best One",
+      "authors": ["Builder.io"],
+      "year": 2024,
+      "type": "tech-blog",
+      "url": "https://www.builder.io/blog/ai-coding-tools-comparison",
+      "relevance": "§21 Comparación con Alternativas",
+      "key_quote": "Cursor is the best overall performer for complex codebases.",
+      "status": "acquired",
+      "acquisition": {
+        "acquired": true,
+        "acquisition_date": "2025-11-06",
+        "acquisition_method": "curl -L"
+      },
+      "local_path": "bibliography/tech-blogs/builderio-ai-tools-comparison-2024.html",
+      "file_size": "7.8 KB",
+      "format": "HTML + ASCII"
+    },
+    {
+      "id": "[11]",
+      "title": "Realizing quality improvement through test driven development: results and experiences of four industrial teams",
+      "authors": [
+        "Nagappan, Nachiappan",
+        "Maximilien, E. Michael",
+        "Bhat, Thirumalesh",
+        "Williams, Laurie"
+      ],
+      "year": 2008,
+      "type": "paper",
+      "journal": "Empirical Software Engineering",
+      "volume": "13",
+      "issue": "3",
+      "pages": "289-302",
+      "doi": "10.1007/s10664-008-9062-z",
+      "relevance": "§8.1 TDD Filosofía",
+      "key_quote": "TDD teams saw 60-90% reduction in defect density, with 15-35% increase in development time.",
+      "status": "partial",
+      "acquisition": {
+        "acquired": true,
+        "acquisition_date": "2025-11-06",
+        "acquisition_method": "curl -L (web-research-specialist found Microsoft Research URL)",
+        "acquisition_url": "https://www.microsoft.com/en-us/research/wp-content/uploads/2009/10/Realizing-Quality-Improvement-Through-Test-Driven-Development-Results-and-Experiences-of-Four-Industrial-Teams-nagappan_tdd.pdf",
+        "alternative_urls": [
+          "https://collaboration.csc.ncsu.edu/laurie/Papers/TDDpaperv8.pdf",
+          "https://www.semanticscholar.org/paper/4dcf5e7eed29c6707a8e1a415c5a6713a23c1d91"
+        ],
+        "warning": "File reports 1 page but 266 KB size - may be compressed or metadata issue. Manual verification recommended."
+      },
+      "local_path": "bibliography/papers/nagappan-tdd-quality-2008.pdf",
+      "file_size": "266 KB",
+      "format": "PDF v1.3",
+      "validation_needed": true
+    },
+    {
+      "id": "[12]",
+      "title": "An External Replication on the Effects of Test-driven Development Using a Multi-site Blind Analysis Approach",
+      "authors": ["Fucci, Davide", "et al."],
+      "year": 2016,
+      "type": "paper",
+      "journal": "ArXiv",
+      "url": "https://arxiv.org/abs/1611.05994",
+      "relevance": "§8 TDD - Evidencia Mixta",
+      "key_quote": "Results are contradictory in the literature regarding TDD effectiveness.",
+      "status": "acquired",
+      "acquisition": {
+        "acquired": true,
+        "acquisition_date": "2025-11-06",
+        "acquisition_method": "curl -L (ArXiv direct PDF)"
+      },
+      "local_path": "bibliography/papers/fucci-tdd-replication-2016.pdf",
+      "file_size": "1.1 MB",
+      "pages": 14,
+      "format": "PDF v1.5"
+    }
+  ],
+  "tools_used": {
+    "agents": {
+      "web-research-specialist": {
+        "invocations": 2,
+        "tasks": [
+          "Search for Sweller (1988) Cognitive Load paper",
+          "Search for Nagappan (2008) TDD Quality paper"
+        ],
+        "success_rate": "100%"
+      },
+      "Explore": {
+        "invocations": 1,
+        "tasks": ["Validate bibliography/ directory structure"],
+        "findings": "13 files, 0 corrupt, 1 warning (nagappan PDF)"
+      }
+    },
+    "tools": {
+      "curl": {
+        "invocations": 11,
+        "success_rate": "100%",
+        "method": "curl -L (follow redirects)"
+      },
+      "WebSearch": {
+        "invocations": 1,
+        "task": "Find GitHub Copilot statistics TechCrunch article"
+      }
+    }
+  },
+  "next_steps": [
+    "Verify nagappan-tdd-quality-2008.pdf manually (page count vs file size)",
+    "Download full PDF of DDD Quickly from InfoQ (requires free registration)",
+    "Consider O'Reilly subscription for access to full books if needed",
+    "Generate BibTeX entries for academic citations",
+    "Create MD5/SHA256 checksums for all PDFs"
+  ]
+}

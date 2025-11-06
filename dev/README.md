@@ -414,11 +414,35 @@ mkdir -p dev/active/your-task-name
 
 ---
 
+## Research Documentation
+
+This directory also contains bibliographic research supporting the showcase:
+
+- **BIBLIOGRAFIA_INVESTIGACION.md** - 50+ verified sources organized by category
+  - Progressive Disclosure, Layered Architecture, AI Coding Assistants
+  - Academic papers, industry reports, official documentation
+  - All sources verified and accessible (URLs/ISBNs provided)
+
+- **GUIA_INTEGRACION_BIBLIOGRAFIA.md** - Integration guide with examples
+  - How to cite sources in technical documentation
+  - Example integrations for each showcase section
+  - Citation format standards (IEEE/APA)
+
+- **RESUMEN_EJECUTIVO_INVESTIGACION.md** - Executive summary
+  - Top 10 most impactful references
+  - Key findings and validation of design decisions
+  - Gaps identified and recommendations
+
+**Purpose:** Provide academic and professional credibility to showcase patterns through verified, peer-reviewed, and industry-validated sources.
+
+---
+
 ## Next Steps
 
 1. **Try the pattern** on your next complex task
 2. **Use /dev-docs** slash command (if available)
 3. **Update frequently** - especially context.md
 4. **See it in action** - Browse dev/active/public-infrastructure-repo/
+5. **Review research** - Check bibliography files for design pattern validation
 
 **Questions?** See [CLAUDE_INTEGRATION_GUIDE.md](../CLAUDE_INTEGRATION_GUIDE.md)
